@@ -7,7 +7,7 @@ import {
   ParseIntPipe,
   Post,
 } from '@nestjs/common';
-import { Todo } from './todo.interface';
+import { Todo } from './todo.entity';
 import { TodosService } from './todos.service';
 
 @Controller('todos')
